@@ -56,6 +56,13 @@ later stage changes.
    columns, ≥20 consecutive rows) and get prediction + confidence % + SHAP explanation
    (auto-skipped if MLP won).
 
+
+## Notes
+
+- Large datasets (.xlsx), generated feature files (.csv), and NumPy arrays (.npy) are excluded from this repository to keep it lightweight.
+- Run the notebooks in the given order to regenerate these files.
+- The trained model files (.joblib) are included because they are required to run the Streamlit dashboard.
+- 
 ## Why split it this way
 - **Re-run only what changed.** Tweaking model hyperparameters? Just re-run notebook 02 —
   no need to redo feature extraction on 500K+ rows again.
