@@ -56,7 +56,15 @@ later stage changes.
    columns, ≥20 consecutive rows) and get prediction + confidence % + SHAP explanation
    (auto-skipped if MLP won).
 
+## Running the Streamlit Dashboard
 
+1. Clone the repository.
+2. Install the required packages:
+   pip install -r requirements.txt
+3. Make sure the required model files (.joblib) are present in the project folder.
+4. Run:
+   streamlit run app.py
+   
 ## Notes
 
 - Large datasets (.xlsx), generated feature files (.csv), and NumPy arrays (.npy) are excluded from this repository to keep it lightweight.
