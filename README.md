@@ -64,6 +64,16 @@ later stage changes.
 3. Make sure the required model files (.joblib) are present in the project folder.
 4. Run:
    streamlit run app.py
+
+   ## 📸 Dashboard
+
+![Dashboard](Screenshot%202026-07-09%20184313.png)
+
+![Dashboard](Screenshot%202026-07-09%20184330.png)
+
+![Dashboard](Screenshot%202026-07-09%20184349.png)
+
+![Dashboard](Screenshot%202026-07-09%20184723.png)
    
 ## Notes
 
